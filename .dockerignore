@@ -1,0 +1,24 @@
+# Node modules (будуть встановлені всередині контейнера)
+node_modules
+
+# Git
+.git
+.gitignore
+
+# IDE/config
+.vscode
+.idea
+
+# Local env files (не треба у контейнері)
+.env
+
+# Logs
+*.log
+
+# Docker files themselves (не копіюємо всередину)
+Dockerfile
+docker-compose.yml
+
+# Кеш, збірки
+dist
+build
