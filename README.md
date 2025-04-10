@@ -22,6 +22,9 @@ Docker
 ```
 docker build -t anon-chat-bot .
 docker run -d --env TELEGRAM_TOKEN=your_telegram_bot_token anon-chat-bot
+
+on vps or local
+docker run --rm -v ${PWD}:/app -w /app node:20 npm install
 ```
 
 ⚙️ Команди бота
